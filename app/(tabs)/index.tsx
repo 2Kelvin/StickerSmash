@@ -1,6 +1,10 @@
 import { Text, View, StyleSheet } from "react-native";
 import { Link } from "expo-router";
+import { Image } from 'expo-image';
 
+const placeHolderImage = require('@/assets/images/background-image.png');
+
+/** Home Screen Component */
 export default function Index() {
   return (
     <View style={styles.container}>
